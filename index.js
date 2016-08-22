@@ -19,6 +19,7 @@ export { default as Picker } from './components/picker/';
 export { default as Progress } from './components/progress/';
 export { default as RefreshControl } from './components/refresh-control/';
 export { default as SegmentedControl } from './components/segmented-control/';
+export { default as SearchBar } from './components/search-bar/';
 export { default as Slider } from './components/slider/';
 export { default as Stepper } from './components/stepper/';
 export { default as SwipeAction } from './components/swipe-action/';

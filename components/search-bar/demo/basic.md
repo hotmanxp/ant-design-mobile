@@ -3,11 +3,9 @@ order: 0
 title: 基本
 ---
 
-
-
 ````jsx
 import { SearchBar, WhiteSpace } from 'antd-mobile';
-import { createForm } from 'rc-form';
+
 let SearchBarExample = React.createClass({
   getInitialState() {
     return {
@@ -15,7 +13,6 @@ let SearchBarExample = React.createClass({
     };
   },
   render() {
-    const { getFieldProps } = this.props.form;
     return (
       <div>
         <SearchBar
